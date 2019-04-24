@@ -1,0 +1,222 @@
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.marketing,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+.text-muted {
+    color: #ea6f5a;
+}
+
+/* 列表组 */
+.list-group a,
+a.collapsed{
+    color: #777;
+}
+
+.list-group a:hover,
+.list-group a:focus{
+    color: #333;
+    text-decoration: none;
+}
+/* 博客文章大标题 */
+a[role=button]:hover,
+a[role=button]:focus{
+    color: #333;
+    text-decoration: none;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+}
+
+.padTop-15{
+    padding-top: 15px;
+}
+
+.padBot-15{
+    padding-bottom: 15px;
+}
+
+.padLeft-15{
+    padding-left: 15px;
+}
+
+.padRight-15{
+    padding-right: 15px;
+}
+
+.mgTop-15{
+    margin-top: 15px;
+}
+
+.mgBot-15{
+    margin-bottom: 15px;
+}
+
+.mgLeft-15{
+    margin-left: 15px;
+}
+
+.mgRight-15{
+    margin-right: 15px;
+}
+
+/* 链接按钮去掉蓝色和下划线样式 */
+.btn-link{
+    color: #777;
+}
+
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active:focus {
+    color: #777;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+}
+
+/* 阅读全文按钮 */
+.btn-read{
+    color: #5cb85c;
+}
+
+.btn-read:hover,
+.btn-read:focus,
+.btn-read:active,
+.btn-read:active:focus {
+    color: #5cb85c;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    outline-offset: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* 分类 */
+.btn-category{
+    color: #BF7158;
+}
+
+.btn-category:hover,
+.btn-category:focus,
+.btn-category:active,
+.btn-category:active:focus {
+    color: #BF7158;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    outline-offset: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* 图标有点不居中，向下移动1px */
+.btn-icon {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+/* 橘色样式头部超链接 */
+.a-orange{
+    color: #777;
+}
+
+.nav > li > .a-orange:hover, .nav > li > .a-orange:focus {
+    color: #ea6f5a;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-pills > li.active-orange > a,
+.nav-pills > li.active-orange > a:hover,
+.nav-pills > li.active-orange > a:focus {
+    color: #fff;
+    background-color: #ea6f5a;
+}

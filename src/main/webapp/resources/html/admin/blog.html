@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>查看博客文章</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/resources/plugin/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- base.css -->
+    <link href="/resources/css/common/base.css" rel="stylesheet">
+    <link href="/resources/css/blog/blog.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+    <!-- header -->
+    <div class="header clearfix" id="admin_header"></div>
+
+    <!-- blog -->
+    <div class="row">
+        <!-- blog list start -->
+        <div class="col-md-9">
+            <div class="panel-group" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                博客标题一
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            内容介绍内容介绍内容介绍内容介绍内容介绍内容介绍内容介绍内容介绍内容介绍内容介绍内容介绍
+                        </div>
+                        <div class="blog-panel-footer clearfix">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-link good">
+                                    <span class="glyphicon glyphicon-thumbs-up btn-icon"></span>120
+                                </button>
+                                <button type="button" class="btn btn-link">阅读：121</button>
+                                <button type="button" class="btn btn-link">评论：65</button>
+                                <button type="button" class="btn btn-category">分类：Java</button>
+                            </div>
+
+                            <a type="button" class="btn btn-read pull-right" href="/resources/html/blog/article.html">阅读全文</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                博客标题一
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            内容介绍
+                        </div>
+                        <div class="blog-panel-footer clearfix">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-link good">
+                                    <span class="glyphicon glyphicon-thumbs-up btn-icon"></span>120
+                                </button>
+                                <button type="button" class="btn btn-link">阅读：121</button>
+                                <button type="button" class="btn btn-link">评论：65</button>
+                                <button type="button" class="btn btn-category">分类：Java</button>
+                            </div>
+
+                            <button type="button" class="btn btn-read pull-right">阅读全文</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                博客标题一
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            内容介绍
+                        </div>
+                        <div class="blog-panel-footer clearfix">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-link good">
+                                    <span class="glyphicon glyphicon-thumbs-up btn-icon"></span>120
+                                </button>
+                                <button type="button" class="btn btn-link">阅读：121</button>
+                                <button type="button" class="btn btn-link">评论：65</button>
+                                <button type="button" class="btn btn-category">分类：Java</button>
+                            </div>
+
+                            <button type="button" class="btn btn-read pull-right">阅读全文</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- blog list finish -->
+
+        <!-- fixed list start -->
+        <div class="col-md-3">
+            <div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+                <ul class="list-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <li class="list-group-item">
+                        <a data-toggle="collapse" href="#menu" aria-expanded="false" aria-controls="menu">
+                            目录
+                            <span class="caret"></span>
+                        </a>
+
+                    </li>
+                    <ul class="list-group collapse" id="menu">
+                        <li class="list-group-item" id="menu_first"><a href="#">&nbsp&nbspJava</a></li>
+                        <li class="list-group-item"><a href="#">&nbsp&nbspServlet</a></li>
+                        <li class="list-group-item"><a href="#">&nbsp&nbspSSM</a></li>
+                        <li class="list-group-item"><a href="#">&nbsp&nbspRedis</a></li>
+                        <li class="list-group-item" id="menu_last"><a href="#">&nbsp&nbspMysql</a></li>
+                    </ul>
+                    <li class="list-group-item" >
+                        <a href="#" id="hideAll">归档</a>
+                    </li>
+                    <li class="list-group-item" >
+                        <a href="#" id="showAll">展开</a>
+                    </li>
+                    <!-- modal link -->
+                    <li class="list-group-item" >
+                        <a href="#" data-toggle="modal" data-target="#search">搜索</a>
+                    </li>
+                    <li class="list-group-item" ><a href="#header">返回顶部</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- fixed list finish -->
+
+
+        <!-- search by modal -->
+        <div class="modal fade" id="search" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">搜索</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <!-- search tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#inTitle" aria-controls="inTitle" role="tab" data-toggle="tab">
+                                    在标题中搜索
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#inContent" aria-controls="inContent" role="tab" data-toggle="tab">
+                                    在内容中搜索
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#inAll" aria-controls="inAll" role="tab" data-toggle="tab">
+                                    全局搜索
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="inAll">
+
+                                <div class="input-group padTop-15">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">清空</button>
+                                </span>
+                                    <input type="text" class="form-control" placeholder="请输入查询内容...">
+                                </div>
+
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="inTitle">
+                                <div class="input-group padTop-15">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">清空</button>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="请输入查询内容...">
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="inContent">
+                                <div class="input-group padTop-15">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">清空</button>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="请输入查询内容...">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="button" class="btn btn-primary">搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div> <!-- /container -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/resources/js/jquery/jquery-3.3.1.js"></script>
+<script src="/resources/plugin/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<!-- base, for basic part -->
+<script src="/resources/js/common/base.js"></script>
+<script src="/resources/html/blog/blog.js"></script>
+</body>
+</html>

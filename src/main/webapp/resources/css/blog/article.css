@@ -1,0 +1,41 @@
+.article{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.article-itr{
+    color: #777;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.article-indent{
+    text-indent: 2em;
+}
+.article-info{
+    margin-top: 25px;
+    padding: 20px;
+    background-color: hsla(0,0%,71%,.1);
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.article-count{
+    min-height: 47px;
+}
+.article-count .count-title{
+    color: #333;
+}
+.article-count .count-content{
+    color: #969696;
+}
+.article-signature{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e1e1e1;
+    color: #969696;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.footer{
+    margin-top: 25px;
+}

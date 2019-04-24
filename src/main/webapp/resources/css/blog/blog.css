@@ -1,0 +1,31 @@
+#menu {
+    margin-bottom: 0;
+}
+
+#menu_first {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#menu_last {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: 0;
+}
+.blog-panel-footer {
+    /*padding: 10px 15px;*/
+    background-color: transparent;
+    border-top: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.good-color{
+    color: #ea6f5a
+}
+.good-color:hover,
+.good-color:focus,
+.good-color:active:focus{
+    color: #ea6f5a
+}
